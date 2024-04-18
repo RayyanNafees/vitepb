@@ -1,0 +1,14 @@
+{
+  "name": "vitepb",
+  "version": "1.0.0",
+  "scripts": {
+    "win": "pocketbase serve",
+    "permit": "chmod +x ./pocketbase",
+    "dev": "./pocketbase serve --http=0.0.0.0:8090",
+    "build": "pnpm -r run build"
+  },
+  "packageManager": "pnpm@9.0.2",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
